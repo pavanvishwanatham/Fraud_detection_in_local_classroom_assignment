@@ -143,3 +143,61 @@ npm install
    
 Create a ``` .env ``` file:
 
+```
+
+PORT=5000
+DB_HOST=localhost
+DB_USER=your_mysql_user
+DB_PASS=your_mysql_password
+DB_NAME=your_database_name
+EMAIL_USER=your_email
+EMAIL_PASS=your_password
+JWT_SECRET=your_jwt_secret
+
+```
+
+5. Start the backend server
+
+```
+
+npm start
+
+```
+
+Runs at:
+
+👉 http://localhost:5000
+
+🌐 Frontend Setup (React App)
+
+1. Go to frontend folder
+
+```
+
+cd ../myproject-frontend
+
+```
+
+2. Install frontend dependencies
+
+```
+
+npm install
+
+```
+
+3. Start the React app
+
+```
+
+npm start
+
+```
+
+Frontend runs at:
+👉 http://localhost:3000
+
+
+
+
+
