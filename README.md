@@ -7,10 +7,10 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 
 👩‍🎓 Student Portal
 
--Upload assignments (PDF, DOCX, TXT, etc.)
+- Upload assignments (PDF, DOCX, TXT, etc.)
 
--View past submissions
+- View past submissions
 
--Receive alerts if similarity or fraud is detected
+- Receive alerts if similarity or fraud is detected
 
 
