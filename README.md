@@ -35,4 +35,25 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
   - slightly modified
 
   - partially copied
-  
+
+🔐 Role-Based Authentication
+
+- JWT-based login system
+
+- Student & Teacher accounts with separate dashboards
+
+- Secure routes handled at backend + protected frontend pages
+
+🧠 How Fraud Detection Works
+
+- Student uploads assignment file
+
+- Backend extracts text (supports PDF, DOCX, TXT)
+
+- Text is vectorized and compared with previous submissions
+
+- Cosine similarity score is generated
+
+- If score ≥ threshold → submission is flagged
+
+- Teacher dashboard displays flagged cases
