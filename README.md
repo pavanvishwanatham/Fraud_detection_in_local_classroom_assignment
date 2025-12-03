@@ -69,3 +69,21 @@ Frontend
 - Axios
 
 - HTML/CSS (custom UI)
+
+Backend
+
+- Node.js + Express.js
+
+- Multer (file upload)
+
+- MySQL / MySQL2
+
+- JSON Web Tokens (JWT)
+
+- BcryptJS (password hashing)
+
+- Nodemailer (optional for email alerts)
+
+Database
+
+- MySQL (stores users, submissions, similarity reports)
