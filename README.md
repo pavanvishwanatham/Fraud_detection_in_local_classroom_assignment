@@ -13,4 +13,21 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 
 - Receive alerts if similarity or fraud is detected
 
+👨‍🏫 Teacher Portal
 
+- View all student submissions
+
+- Compare assignments with automated similarity scoring
+
+- Flag suspicious submissions
+
+- Generate fraud reports
+
+🕵️ Plagiarism Detection
+
+- Server-side cosine similarity on preprocessed text
+
+- Detects copied or near-duplicate assignments
+
+- Works even if text is:
+  
