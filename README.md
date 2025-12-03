@@ -57,3 +57,15 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 - If score ≥ threshold → submission is flagged
 
 - Teacher dashboard displays flagged cases
+
+🛠️ Tech Stack
+
+Frontend
+
+React.js
+
+React Router DOM
+
+Axios
+
+HTML/CSS (custom UI)
