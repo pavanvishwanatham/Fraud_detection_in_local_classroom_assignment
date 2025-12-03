@@ -30,9 +30,9 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 - Detects copied or near-duplicate assignments
 
 - Works even if text is:
--  - rearranged
+  - rearranged
 
-- - slightly modified
+ - slightly modified
 
-- - partially copied
+ - partially copied
   
