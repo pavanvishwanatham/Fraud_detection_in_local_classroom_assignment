@@ -62,10 +62,10 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 
 Frontend
 
-React.js
+- React.js
 
-React Router DOM
+- React Router DOM
 
-Axios
+- Axios
 
-HTML/CSS (custom UI)
+- HTML/CSS (custom UI)
