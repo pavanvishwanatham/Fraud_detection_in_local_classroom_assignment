@@ -109,3 +109,37 @@ Fraud_detection_in_local_classroom_assignment/
 │── README.md
 
 ```
+
+⚙️ Installation & Setup
+
+🔧 1. Clone the repository
+
+```
+
+git clone https://github.com/pavanvishwanatham/Fraud_detection_in_local_classroom_assignment
+cd Fraud_detection_in_local_classroom_assignment
+
+```
+
+🖥️ Backend Setup (Node.js + Express)
+
+2. Go to backend folder
+
+```
+
+cd myproject-backend
+
+```
+
+3. Install backend dependencies
+
+```
+
+npm install
+
+```
+
+4. Configure environment variables
+   
+Create a ``` .env ``` file:
+
