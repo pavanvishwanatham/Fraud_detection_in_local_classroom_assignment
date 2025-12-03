@@ -87,3 +87,21 @@ Backend
 Database
 
 - MySQL (stores users, submissions, similarity reports)
+
+📁 Folder Structure
+
+Fraud_detection_in_local_classroom_assignment/
+│── myproject-frontend/        # React UI
+│     ├── public/
+│     ├── src/
+│     ├── package.json
+│
+│── myproject-backend/         # Node.js API server
+│     ├── uploads/             # Uploaded assignment files
+│     ├── routes/
+│     ├── controllers/
+│     ├── models/
+│     ├── server.js
+│     ├── package.json
+│
+│── README.md
