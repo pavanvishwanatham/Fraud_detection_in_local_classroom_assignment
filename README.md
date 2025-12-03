@@ -32,7 +32,7 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 - Works even if text is:
   - rearranged
 
- - slightly modified
+  - slightly modified
 
- - partially copied
+  - partially copied
   
