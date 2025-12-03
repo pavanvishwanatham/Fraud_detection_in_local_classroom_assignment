@@ -90,6 +90,8 @@ Database
 
 📁 Folder Structure
 
+```
+
 Fraud_detection_in_local_classroom_assignment/
 
 │── myproject-frontend/        # React UI
@@ -120,3 +122,4 @@ Fraud_detection_in_local_classroom_assignment/
 
 │── README.md
 
+```
