@@ -25,7 +25,7 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 
 - Generate fraud reports
 
-🕵️ Plagiarism Detection
+### 🕵️ Plagiarism Detection
 
 - Server-side cosine similarity on preprocessed text
 
@@ -38,7 +38,7 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 
   - partially copied
 
-🔐 Role-Based Authentication
+### 🔐 Role-Based Authentication
 
 - JWT-based login system
 
@@ -46,7 +46,10 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 
 - Secure routes handled at backend + protected frontend pages
 
-🧠 How Fraud Detection Works
+---
+
+
+## 🧠 How Fraud Detection Works
 
 - Student uploads assignment file
 
@@ -60,9 +63,11 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 
 - Teacher dashboard displays flagged cases
 
-🛠️ Tech Stack
+---
 
-Frontend
+## 🛠️ Tech Stack
+
+### Frontend
 
 - React.js
 
@@ -72,7 +77,7 @@ Frontend
 
 - HTML/CSS (custom UI)
 
-Backend
+### Backend
 
 - Node.js + Express.js
 
@@ -86,11 +91,13 @@ Backend
 
 - Nodemailer (optional for email alerts)
 
-Database
+### Database
 
 - MySQL (stores users, submissions, similarity reports)
 
-📁 Folder Structure
+---
+
+## 📁 Folder Structure
 
 ```
 
@@ -111,6 +118,8 @@ Fraud_detection_in_local_classroom_assignment/
 │── README.md
 
 ```
+
+---
 
 ⚙️ Installation & Setup
 
