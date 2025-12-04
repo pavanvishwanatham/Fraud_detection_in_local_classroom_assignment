@@ -205,6 +205,56 @@ npm start
 Frontend runs at:
 👉 `http://localhost:3000`
 
+---
+
+## 📡 API Endpoints
+
+### 🔐 Authentication (Students)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| **POST** | `/signup` | Register a new student account |
+| **POST** | `/login` | Student login (returns JWT token) |
+| **POST** | `/forgot-password` | Sends password reset link to email |
+| **POST** | `/reset-password` | Resets password using token |
+
+---
+
+### 👨‍🏫 Authentication (Teachers)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| **POST** | `/teacher-signup` | Register a new teacher account |
+| **POST** | `/teacher-login` | Teacher login (returns JWT token) |
+
+---
+
+### 📝 Assignments
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| **POST** | `/submit-assignment` | Student uploads an assignment (file upload + DB entry) |
+| **GET** | `/student-dashboard` | Student views their own submissions |
+| **GET** | `/teacher-dashboard` | Teacher views all student submissions |
+| **GET** | `/assignments` | Fetch all assignments with student details |
+| **GET** | `/api/get-submitted-assignments` | Returns all submitted assignments (with student info) |
+
+---
+
+### 🔐 Middleware (JWT Protected Routes)
+
+The following routes require a valid JWT token:
+
+- `/submit-assignment`
+- `/student-dashboard`
+- `/teacher-dashboard`
+
+Requests must include:
+
+```
+Authorization: Bearer <token>
+```
+
 
 
 
