@@ -125,6 +125,11 @@ DB_HOST=localhost
 DB_USER=your_mysql_user
 DB_PASS=your_mysql_password
 DB_NAME=mydatabase   # must match the database created in login page.sql
+```
+You may rename the database, but then update it in:
+
+-  `login page.sql`
+-  `.env`
 
 ⚙️ Installation & Setup
 
