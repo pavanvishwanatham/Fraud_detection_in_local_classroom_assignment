@@ -16,32 +16,23 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 ### 👨‍🏫 Teacher Portal
 
 - View all student submissions
-
 - Compare assignments with automated similarity scoring
-
 - Flag suspicious submissions
-
 - Generate fraud reports
 
 ### 🕵️ Plagiarism Detection
 
 - Server-side cosine similarity on preprocessed text
-
 - Detects copied or near-duplicate assignments
-
 - Works even if text is:
   - rearranged
-
   - slightly modified
-
   - partially copied
 
 ### 🔐 Role-Based Authentication
 
 - JWT-based login system
-
 - Student & Teacher accounts with separate dashboards
-
 - Secure routes handled at backend + protected frontend pages
 
 ---
@@ -50,15 +41,10 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 ## 🧠 How Fraud Detection Works
 
 - Student uploads assignment file
-
 - Backend extracts text (supports PDF, DOCX, TXT)
-
 - Text is vectorized and compared with previous submissions
-
 - Cosine similarity score is generated
-
 - If score ≥ threshold → submission is flagged
-
 - Teacher dashboard displays flagged cases
 
 ---
@@ -68,25 +54,17 @@ The system provides dedicated dashboards for Students and Teachers, with secure 
 ### Frontend
 
 - React.js
-
 - React Router DOM
-
 - Axios
-
 - HTML/CSS (custom UI)
 
 ### Backend
 
 - Node.js + Express.js
-
 - Multer (file upload)
-
 - MySQL / MySQL2
-
 - JSON Web Tokens (JWT)
-
 - BcryptJS (password hashing)
-
 - Nodemailer (optional for email alerts)
 
 ### Database
@@ -124,22 +102,29 @@ Fraud_detection_in_local_classroom_assignment/
 This project uses **MySQL** for storing users, assignments, and plagiarism reports.
 
 ### 1️⃣ Run `login page.sql`
-
 This script will:
-
 - Create the database (`mydatabase` by default)
-
 - Create the `students` table used for student signup/login
-
 - Insert sample student rows (optional — delete them if not needed)
-  
 
+### 2️⃣ Create the remaining tables  
+Run the SQL from these files **in the same database**:
 
+- `teachers table.txt` → creates the **teachers** table  
+- `assignments table.txt` → creates the **assignments** table  
+- `plagarism table.txt` → creates the **plagiarism reports** table  
 
+> Open each file → copy SQL → execute in MySQL Workbench / phpMyAdmin / CLI.
 
+### 3️⃣ Configure database name in `.env`
 
+Make sure your `.env` file uses the **same database name** as created in `login page.sql`:
 
-
+```env
+DB_HOST=localhost
+DB_USER=your_mysql_user
+DB_PASS=your_mysql_password
+DB_NAME=mydatabase   # must match the database created in login page.sql
 
 ⚙️ Installation & Setup
 
