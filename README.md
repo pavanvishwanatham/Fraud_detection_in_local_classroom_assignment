@@ -1,7 +1,7 @@
 # 📘 Fraud Detection in Local Classroom Assignments
 
-A full-stack React + Node.js + MySQL application for detecting plagiarism and fraud in classroom assignment submissions.
-The system provides dedicated dashboards for Students and Teachers, with secure authentication, file uploads, similarity scoring, and fraud reporting.
+A full-stack **React + Node.js + MySQL** application for detecting plagiarism and fraud in classroom assignment submissions.
+The system provides dedicated dashboards for **Students** and **Teachers**, with secure authentication, file uploads, similarity scoring, and fraud reporting.
 
 ---
 
@@ -131,41 +131,36 @@ You may rename the database, but then update it in:
 -  `login page.sql`
 -  `.env`
 
-⚙️ Installation & Setup
+---
+  
+## ⚙️ Installation & Setup
 
-🔧 1. Clone the repository
+### 🔧 1. Clone the repository
 
 ```
-
 git clone https://github.com/pavanvishwanatham/Fraud_detection_in_local_classroom_assignment
 cd Fraud_detection_in_local_classroom_assignment
-
 ```
 
-🖥️ Backend Setup (Node.js + Express)
+## 🖥️ Backend Setup (Node.js + Express)
 
-2. Go to backend folder
+### 2. Go to backend folder
 
 ```
-
 cd myproject-backend
-
 ```
 
-3. Install backend dependencies
+### 3. Install backend dependencies
 
 ```
-
 npm install
-
 ```
 
-4. Configure environment variables
+### 4. Configure environment variables
    
-Create a ``` .env ``` file:
+Inside **myproject-backend**, create a ``` .env ``` file:
 
 ```
-
 PORT=5000
 DB_HOST=localhost
 DB_USER=your_mysql_user
@@ -174,49 +169,41 @@ DB_NAME=your_database_name
 EMAIL_USER=your_email
 EMAIL_PASS=your_password
 JWT_SECRET=your_jwt_secret
+```
+`DB_NAME` must match the name created during **MySQL Setup.**
+
+### 5. Start the backend server
 
 ```
-
-5. Start the backend server
-
-```
-
 npm start
-
 ```
 
 Runs at:
 
-👉 http://localhost:5000
+👉 `http://localhost:5000`
 
-🌐 Frontend Setup (React App)
+## 🌐 Frontend Setup (React App)
 
-1. Go to frontend folder
+### 1. Go to frontend folder
 
 ```
-
 cd ../myproject-frontend
-
 ```
 
-2. Install frontend dependencies
+### 2. Install frontend dependencies
 
 ```
-
 npm install
-
 ```
 
-3. Start the React app
+### 3. Start the React app
 
 ```
-
 npm start
-
 ```
 
 Frontend runs at:
-👉 http://localhost:3000
+👉 `http://localhost:3000`
 
 
 
