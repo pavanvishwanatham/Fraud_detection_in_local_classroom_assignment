@@ -121,6 +121,28 @@ Fraud_detection_in_local_classroom_assignment/
 
 ---
 
+## 🗄️ MySQL Setup
+
+This project uses **MySQL** for storing users, assignments, and plagiarism reports.
+
+### 1️⃣ Run `login page.sql`
+
+This script will:
+
+- Create the database (`mydatabase` by default)
+
+- Create the `students` table used for student signup/login
+
+- Insert sample student rows (optional — delete them if not needed)
+  
+
+
+
+
+
+
+
+
 ⚙️ Installation & Setup
 
 🔧 1. Clone the repository
